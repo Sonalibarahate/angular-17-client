@@ -1,0 +1,86 @@
+/* General Body Styling */
+body {
+  background-color: #e9ebee; /* Light background color */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Centered Container Styling */
+.container {
+  margin-top: 0; /* Adjust margin since it's centered */
+}
+
+/* Card Styling */
+.card {
+  border: none; /* Remove default border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Rounded corner effects */
+}
+
+/* Card Header */
+.card-header {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+/* Card Body */
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Form Label Styling */
+.form-group label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Input Fields */
+.form-control {
+  border: 1px solid #ced4da; /* Subtle border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  border-color: #007bff; /* Highlight on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #007bff; /* Primary color */
+  border-color: #007bff; /* Match background */
+  padding: 0.6rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Small Screen Adjustments */
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%;
+    padding: 0 1rem;
+  }
+}
